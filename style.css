@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #2d6a9f;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.container {
+    background: white;
+    max-width: 600px;
+    width: 100%;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+header {
+    text-align: center;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    color: #1a3a5c;
+    font-size: 2em;
+    margin-bottom: 5px;
+}
+
+header .nombre {
+    color: #2d6a9f;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.menu h2 {
+    color: #1a3a5c;
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 1.5em;
+}
+
+.descripcion {
+    text-align: center;
+    color: #333;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.formulario {
+    margin-bottom: 20px;
+}
+
+.campo {
+    margin-bottom: 15px;
+}
+
+.campo label {
+    display: block;
+    font-weight: bold;
+    color: #1a3a5c;
+    margin-bottom: 5px;
+}
+
+#edad {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #2d6a9f;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.generos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-top: 5px;
+}
+
+.genero-btn {
+    padding: 10px;
+    border: 2px solid #2d6a9f;
+    background: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    color: #1a3a5c;
+}
+
+.genero-btn.seleccionado {
+    background: #2d6a9f;
+    color: white;
+}
+
+#recomendar-btn {
+    width: 100%;
+    padding: 12px;
+    background: #1a3a5c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#recomendar-btn:hover {
+    background: #0f2842;
+}
+
+.resultado {
+    background: #f0f6ff;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 20px;
+    min-height: 70px;
+}
+
+.resultado h3 {
+    color: #1a3a5c;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+
+#recomendacion {
+    font-size: 1.2em;
+    color: #1a3a5c;
+    padding: 10px;
+    background: white;
+    border-radius: 5px;
+    min-height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Responsive */
+@media (max-width: 500px) {
+    .container {
+        padding: 15px;
+    }
+    
+    header h1 {
+        font-size: 1.5em;
+    }
+    
+    .generos {
+        grid-template-columns: 1fr;
+    }
+}
