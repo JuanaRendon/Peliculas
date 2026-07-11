@@ -1,0 +1,74 @@
+[
+    {
+        "titulo": "The Godfather",
+        "genero": "Drama",
+        "edad_minima": 18,
+        "descripcion": "Un clásico del drama criminal sobre la familia Corleone."
+    },
+    {
+        "titulo": "The Shawshank Redemption",
+        "genero": "Drama",
+        "edad_minima": 16,
+        "descripcion": "Dos hombres encarcelados forjan una amistad a lo largo de los años."
+    },
+    {
+        "titulo": "Forrest Gump",
+        "genero": "Drama",
+        "edad_minima": 12,
+        "descripcion": "La vida de un hombre con un coeficiente intelectual bajo pero un corazón enorme."
+    },
+    {
+        "titulo": "Superbad",
+        "genero": "Comedia",
+        "edad_minima": 16,
+        "descripcion": "Dos adolescentes en una aventura loca antes de la graduación."
+    },
+    {
+        "titulo": "The Hangover",
+        "genero": "Comedia",
+        "edad_minima": 18,
+        "descripcion": "Tres amigos despiertan después de una despedida de soltero en Las Vegas sin recordar nada."
+    },
+    {
+        "titulo": "Step Brothers",
+        "genero": "Comedia",
+        "edad_minima": 15,
+        "descripcion": "Dos cuarentones que viven con sus padres se convierten en hermanastros."
+    },
+    {
+        "titulo": "Mamma Mia!",
+        "genero": "Musical",
+        "edad_minima": 12,
+        "descripcion": "Una divertida historia con las canciones de ABBA."
+    },
+    {
+        "titulo": "La La Land",
+        "genero": "Musical",
+        "edad_minima": 14,
+        "descripcion": "Un pianista de jazz y una aspirante a actriz se enamoran mientras persiguen sus sueños."
+    },
+    {
+        "titulo": "The Greatest Showman",
+        "genero": "Musical",
+        "edad_minima": 10,
+        "descripcion": "La historia de P.T. Barnum y la creación del circo moderno."
+    },
+    {
+        "titulo": "Pulp Fiction",
+        "genero": "Crimen",
+        "edad_minima": 18,
+        "descripcion": "Historias entrelazadas en el mundo criminal de Quentin Tarantino."
+    },
+    {
+        "titulo": "The Dark Knight",
+        "genero": "Crimen",
+        "edad_minima": 16,
+        "descripcion": "Batman enfrenta a su mayor enemigo: el Joker."
+    },
+    {
+        "titulo": "Goodfellas",
+        "genero": "Crimen",
+        "edad_minima": 18,
+        "descripcion": "La historia de un mafioso desde su infancia hasta su caída."
+    }
+]
